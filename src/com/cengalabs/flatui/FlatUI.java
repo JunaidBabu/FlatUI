@@ -32,6 +32,7 @@ public class FlatUI implements Colors {
     public static final int DARK = 8;
     public static final int SNOW = 9;
     public static final int SEA = 10;
+    public static final int BLOOD = 11;
 
     public static int[] getColor(int theme) {
 
@@ -57,6 +58,8 @@ public class FlatUI implements Colors {
             return COLOR_SNOW;
         else if (theme == SEA)
             return COLOR_SEA;
+        else if (theme == BLOOD)
+            return COLOR_BLOOD;
 
         return COLOR_CANDY;
     }
@@ -113,6 +116,9 @@ public class FlatUI implements Colors {
 
         ActionBar actionBar = context.getActionBar();
         actionBar.setBackgroundDrawable(drawable);
+
+        // invalidating action bar
+        actionBar.setTitle(actionBar.getTitle());
     }
 
     public static void setDefaultTheme(int theme){

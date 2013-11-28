@@ -85,7 +85,7 @@ public class FlatEditText extends EditText implements Colors {
         if (style == 0) {             // flat
             normalFront.getPaint().setColor(Color.TRANSPARENT);
             normalBack.getPaint().setColor(color[2]);
-            setTextColor(color[0]);
+            setTextColor(color[3]);
 
         } else if (style == 1) {      // box
             normalFront.getPaint().setColor(Color.WHITE);

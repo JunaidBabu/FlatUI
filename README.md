@@ -14,19 +14,61 @@ Features included
 * Creating widgets inside JAVA.
 * Using defined themes.
 * Changing theme at runtime.
+* Changing ActionBar theme.
 
 
-Theme Screenshots
+Edit Text
 -----------
+![EditText][1]
 
-![Sand][1]
+Button
+-----------
+![Button][2]
 
- [1]: https://raw.github.com/eluleci/FlatUI/master/screenshots/flat_ui_theme_sand.png
+Seekbar
+-----------
+![Seekbar][3]
+
+Checkbox
+-----------
+![Checkbox][4]
+
+Radio Button
+-----------
+![Radio Button]5]
+
+Toggle Button
+-----------
+![Toggle Button][6]
+
+Themes
+-----------
+![Themes][7]
+
+ [1]: https://raw.github.com/eluleci/FlatUI/master/screenshots/edittext.png
+ [2]: https://raw.github.com/eluleci/FlatUI/master/screenshots/button.png
+ [3]: https://raw.github.com/eluleci/FlatUI/master/screenshots/seekbar.png
+ [4]: https://raw.github.com/eluleci/FlatUI/master/screenshots/checkbox.png
+ [5]: https://raw.github.com/eluleci/FlatUI/master/screenshots/radiobutton.png
+ [6]: https://raw.github.com/eluleci/FlatUI/master/screenshots/togglebutton.png
+ [7]: https://raw.github.com/eluleci/FlatUI/master/screenshots/themes.png
  
-## Usage
+ 
+## Usage (Android Studio)
 
-For using this library in Android Studio (IntelliJ IDEA) you need to activate including assets from dependencies.
-- Open project structure (Right Click on Project -> 'Open Module Settings')
+Download the library and extract it. Put the folder into libs directory of the project. 
+
+- Open "Project Structure" (Right click on project -> "Open Module Settings").
+- Select "Modules" from left navigation menu.
+- Click "+" button on left top and select "Import Module".
+- Select the root directory of the project that you put into your libs folder.
+- Click next in all of the pages.
+- Then click your project name below the "+" button at top.
+- Then click "+" button at the right side and select "Module Dependency".
+- Select FlatUI and DONE.
+
+For using this library in Android Studio (IntelliJ IDEA) you also need to activate including assets from dependencies to be able to include font files.
+- Open project structure (Right click on project -> 'Open Module Settings')
 - Select 'Facets' from left menu
 - Select 'Compiler' tab at right
 - Activate 'Include assets from dependencies into APK' beneath 'Resources Packaging'
