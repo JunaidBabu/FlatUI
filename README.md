@@ -17,41 +17,16 @@ Features included
 * Changing ActionBar theme.
 
 
-Edit Text
+Widgets
 -----------
-![EditText][1]
-
-Button
------------
-![Button][2]
-
-Seekbar
------------
-![Seekbar][3]
-
-Checkbox
------------
-![Checkbox][4]
-
-Radio Button
------------
-![Radio Button][5]
-
-Toggle Button
------------
-![Toggle Button][6]
+![Themes][1]
 
 Themes
 -----------
-![Themes][7]
+![Themes][2]
 
- [1]: https://raw.github.com/eluleci/FlatUI/master/screenshots/edittext.png
- [2]: https://raw.github.com/eluleci/FlatUI/master/screenshots/button.png
- [3]: https://raw.github.com/eluleci/FlatUI/master/screenshots/seekbar.png
- [4]: https://raw.github.com/eluleci/FlatUI/master/screenshots/checkbox.png
- [5]: https://raw.github.com/eluleci/FlatUI/master/screenshots/radiobutton.png
- [6]: https://raw.github.com/eluleci/FlatUI/master/screenshots/togglebutton.png
- [7]: https://raw.github.com/eluleci/FlatUI/master/screenshots/themes.png
+ [1]: https://raw.github.com/eluleci/FlatUI/master/screenshots/showcase.png
+ [2]: https://raw.github.com/eluleci/FlatUI/master/screenshots/button.png 
  
  
 ## Usage (Android Studio)
