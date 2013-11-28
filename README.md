@@ -26,7 +26,7 @@ Themes
 ![Themes][2]
 
  [1]: https://raw.github.com/eluleci/FlatUI/master/screenshots/showcase.png
- [2]: https://raw.github.com/eluleci/FlatUI/master/screenshots/button.png 
+ [2]: https://raw.github.com/eluleci/FlatUI/master/screenshots/themes.png 
  
  
 ## Usage (Android Studio)
