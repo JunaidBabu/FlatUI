@@ -35,7 +35,7 @@ Checkbox
 
 Radio Button
 -----------
-![Radio Button]5]
+![Radio Button][5]
 
 Toggle Button
 -----------
