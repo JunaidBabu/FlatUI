@@ -7,6 +7,8 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.PaintDrawable;
+import android.util.Log;
+
 import com.cengalabs.flatui.constants.Colors;
 
 /**
@@ -91,7 +93,15 @@ public class FlatUI implements Colors {
                     fontWeight = "extrabold.ttf";
                     break;
             }
-            return Typeface.createFromAsset(context.getAssets(), "fonts/" + fontName + "_" + fontWeight);
+
+            try {
+                return Typeface.createFromAsset(context.getAssets(),
+                        "fonts/" + fontName + "_" + fontWeight);
+            } catch (Exception e) {
+                Log.e("FlatUI", "Font files cannot be found. Please be sure that library assets" +
+                        " are included to project. If not, copy assets/fonts folder of the" +
+                        " library to your projects assets folder.");
+            }
         }
         return null;
     }
@@ -121,7 +131,7 @@ public class FlatUI implements Colors {
         actionBar.setTitle(actionBar.getTitle());
     }
 
-    public static void setDefaultTheme(int theme){
+    public static void setDefaultTheme(int theme) {
         DEFAULT_THEME = theme;
     }
 }

@@ -66,8 +66,7 @@ public class FlatTextView extends android.widget.TextView implements Colors {
         }
 
         Typeface typeface = FlatUI.getFont(getContext(), fontId, weight);
-        if (typeface != null)
-            setTypeface(typeface);
+        if (typeface != null) setTypeface(typeface);
 
         if(backgroundColor != -1){
             GradientDrawable gradientDrawable = new GradientDrawable();

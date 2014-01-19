@@ -109,7 +109,6 @@ public class FlatEditText extends EditText implements Colors {
         else if (textAppearance == 2) setTextColor(color[3]);
 
         Typeface typeface = FlatUI.getFont(getContext(), fontId, fontWeight);
-        if (typeface != null)
-            setTypeface(typeface);
+        if (typeface != null) setTypeface(typeface);
     }
 }

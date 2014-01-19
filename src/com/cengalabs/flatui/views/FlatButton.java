@@ -130,7 +130,6 @@ public class FlatButton extends android.widget.Button implements Colors {
         else setTextColor(Color.WHITE);
 
         Typeface typeface = FlatUI.getFont(getContext(), fontId, fontWeight);
-        if (typeface != null)
-            setTypeface(typeface);
+        if (typeface != null) setTypeface(typeface);
     }
 }
